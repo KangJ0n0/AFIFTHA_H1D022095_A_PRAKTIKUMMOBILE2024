@@ -3,6 +3,7 @@ import 'dart:math';
 
 Map<String, List<String>> categorizedWords = {
   "random": [
+    "random",
     "absurd",
     "aneh",
     "nggak nyambung",
@@ -78,6 +79,7 @@ Map<String, List<String>> categorizedWords = {
     "pecah"
   ],
   "brutal": [
+    "brutal",
     "kasar",
     "kejam",
     "sadis",
@@ -157,6 +159,7 @@ Map<String, List<String>> categorizedWords = {
     "keras kejam"
   ],
   "negatif": [
+    "negatif",
     "buruk",
     "jelek",
     "minus",
@@ -265,6 +268,7 @@ Map<String, List<String>> categorizedWords = {
     "tak tertahankan"
   ],
   "kerensukses(orang)": [
+    "orang sukses",
     "sukses",
     "hebat",
     "top",
@@ -333,6 +337,7 @@ Map<String, List<String>> categorizedWords = {
     "masterful"
   ],
   "gagal": [
+    "gagal",
     "tidak berhasil",
     "terpuruk",
     "frustrasi",
@@ -402,7 +407,8 @@ Map<String, List<String>> categorizedWords = {
     "unsuccessful"
   ],
   "bro": [
-    "teman",
+    "bro"
+        "teman",
     "sobat",
     "kawan",
     "guy",
@@ -469,6 +475,7 @@ Map<String, List<String>> categorizedWords = {
     "loyal friend"
   ],
   "takjub": [
+    "takjub",
     "kagum",
     "terpesona",
     "terkagum-kagum",
@@ -537,7 +544,9 @@ Map<String, List<String>> categorizedWords = {
     "impressive"
   ],
   "mendingin": [
+    "sok keren",
     "berusaha tampil keren",
+    "tampan",
     "pura-pura cool",
     "berlagak cool",
     "trying hard",
@@ -566,7 +575,11 @@ Map<String, List<String>> categorizedWords = {
     "acting stylish"
   ],
   "orang dingin": [
+    "orang keren",
     "berwibawa",
+    "wibawa nya"
+        "wibawanya",
+    "berkelas",
     "elegan",
     "stylish",
     "dapat dipercaya",
@@ -604,6 +617,7 @@ Map<String, List<String>> categorizedWords = {
     "stylish appearance"
   ],
   "lawak": [
+    "lawak",
     "lucu",
     "gokil",
     "kocak",
@@ -718,6 +732,7 @@ Map<String, List<String>> categorizedWords = {
     "prominent"
   ],
   "betul": [
+    "betul",
     "tepat",
     "akurat",
     "valid",
@@ -750,6 +765,7 @@ Map<String, List<String>> categorizedWords = {
     "just right"
   ],
   "benar": [
+    "benar",
     "valid",
     "sah",
     "dapat dipercaya",
@@ -786,6 +802,7 @@ Map<String, List<String>> categorizedWords = {
     "unequivocal"
   ],
   "maluin": [
+    "maluin",
     "memalukan",
     "cringe",
     "memalukan",
@@ -846,6 +863,7 @@ Map<String, List<String>> categorizedWords = {
     "kurang peka"
   ],
   "edgy": [
+    "edgy",
     "provokatif",
     "kontroversial",
     "menggugah",
@@ -906,6 +924,7 @@ Map<String, List<String>> categorizedWords = {
     "in-your-face"
   ],
   "fokus": [
+    "fokus",
     "konsentrasi",
     "terpusat",
     "terarah",
@@ -1007,6 +1026,9 @@ Map<String, List<String>> categorizedWords = {
     "pindah gigi"
   ],
   "rill": [
+    "beneran",
+    "rill",
+    "bukan bohongan",
     "benar-benar",
     "sesungguhnya",
     "asli",
@@ -1065,6 +1087,7 @@ Map<String, List<String>> categorizedWords = {
     "bener-bener"
   ],
   "anomali": [
+    "anomali",
     "kelainan",
     "penyimpangan",
     "keanehan",
@@ -1131,6 +1154,7 @@ Map<String, List<String>> categorizedWords = {
     "sangat aneh"
   ],
   "mencurigakan": [
+    "mencurigakan",
     "meragukan",
     "misterius",
     "ganjil",
@@ -1199,6 +1223,7 @@ Map<String, List<String>> categorizedWords = {
     "kelihatan aneh"
   ],
   "bacot": [
+    "bacot",
     "berisik",
     "diam",
     "cerewet",
@@ -1252,6 +1277,7 @@ Map<String, List<String>> categorizedWords = {
     "ngelindur"
   ],
   "kamu": [
+    "kamu",
     "anda",
     "saudara",
     "teman",
@@ -1285,7 +1311,7 @@ Map<String, List<String>> replacementOptions = {
   "kerensukses(orang)": ["sigma"],
   "gagal(orang)": ["beta"],
   "bro": ["blud"],
-  "takjub": ["poggers"],
+  "takjub": ["mewing"],
   "dingin": ["rizz"],
   "mendingin": ["rizzing"],
   "orang dingin": ["rizzlers"],
@@ -1301,13 +1327,13 @@ Map<String, List<String>> replacementOptions = {
   "anomali": ["ohio"],
   "mencurigakan": ["sus"],
   "bacot": ["yapping"],
-  "kamu": ["ye"]
+  "kamu": ["ye"],
 };
 
 final random = Random();
 
 void main() {
-  print("Selamat Datang di Indonesian Brainrot Text Generator!");
+  print("Selamat Datang di Indonesian Brainrot Text Generator Sederhana!");
   print(
       "Ketik kalimat/kata dengan bahasa Indonesia untuk menerjemahkan ke bahasa anak gen Alpha!");
 
